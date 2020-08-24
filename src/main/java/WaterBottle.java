@@ -16,4 +16,8 @@ public class WaterBottle {
     public void drink() {
        this.setVolume(this.volume - 10);
     }
+
+    public void empty() {
+        this.setVolume(0);
+    }
 }
