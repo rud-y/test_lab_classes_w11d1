@@ -20,4 +20,8 @@ public class WaterBottle {
     public void empty() {
         this.setVolume(0);
     }
+
+    public void fill() {
+        this.setVolume(100);
+    }
 }
